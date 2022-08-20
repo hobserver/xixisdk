@@ -1,0 +1,115 @@
+{
+  "name": "xixisdk",
+  "version": "0.0.0",
+  "description": "A basic batteries included template for building TypeScript libraries",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "umd:main": "dist/index.umd.js",
+  "unpkg": "dist/index.global.js",
+  "jsdelivr": "dist/index.global.js",
+  "jsnext:main": "dist/index.esm.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "default": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js",
+      "script": "./dist/index.umd.js"
+    }
+  },
+  "repository": "git://github.com/felix-kaestner/TypeScript-Starter-Lib",
+  "homepage": "https://github.com/felix-kaestner/TypeScript-Starter-Lib",
+  "license": "MIT",
+  "sideEffects": false,
+  "author": {
+    "name": "Felix Kästner",
+    "email": "hello@felix-kaestner.com",
+    "url": "https://felix-kaestner.com"
+  },
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "build:types": "tsc --declaration --emitDeclarationOnly --declarationDir types",
+    "test": "jest",
+    "test:dev": "jest --watchAll",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint --ext .ts --ext .js .",
+    "lint:fix": "eslint --ext .ts --ext .js --fix .",
+    "lint:types": "tsc --pretty --noEmit",
+    "format": "prettier --check '**/*.{js,ts,json,yml,md}'",
+    "format:fix": "prettier --write '**/*.{js,ts,json,yml,md}'",
+    "api:extract": "api-extractor run --local --verbose",
+    "api:document": "api-documenter markdown --input-folder temp --output-folder docs",
+    "api:git": "git add --renormalize types docs",
+    "docs": "npm-run-all build:types api:extract api:document api:git",
+    "clean": "rimraf types types temp dist coverage",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "ms": "^2.1.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@microsoft/api-documenter": "^7.19.4",
+    "@microsoft/api-extractor": "^7.29.2",
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-replace": "^4.0.0",
+    "@rollup/plugin-typescript": "^8.3.4",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.5",
+    "@semantic-release/npm": "^9.0.1",
+    "@trivago/prettier-plugin-sort-imports": "^3.3.0",
+    "@types/jest": "^27.5.0",
+    "@types/ms": "^0.7.31",
+    "@types/node": "^18.7.3",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.1",
+    "jest": "^26.6.0",
+    "lint-staged": "^13.0.3",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.78.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "semantic-release": "^19.0.3",
+    "ts-jest": "^26.5.6",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  },
+  "lint-staged": {
+    "*.@(ts|ts)": [
+      "eslint"
+    ],
+    "*.@(js|ts|json|yml|md)": [
+      "prettier --write"
+    ]
+  },
+  "resolutions": {
+    "hosted-git-info": "^3.0.8",
+    "ansi-regex": "^5.0.1",
+    "json-schema": "^0.4.0"
+  },
+  "engines": {
+    "node": ">= 12.0.0",
+    "npm": ">= 6.9",
+    "yarn": ">= 1.20.x"
+  },
+  "buildOptions": {
+    "name": "TypeScriptStarterLibrary"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
