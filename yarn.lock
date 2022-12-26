@@ -815,10 +815,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@microsoft/api-documenter@^7.19.26":
-  version "7.19.26"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.19.26.tgz#7014740131ddeb042c67858ced7cc3e937e844fc"
-  integrity sha512-sFhYmO8k6CMFJ20D/LP1B7GdH+JfwmSKO/xTXnm63WA3+AX7g94G4TlKlc1FXdHFS2qhHnlm4qZUD3fgfs1vqg==
+"@microsoft/api-documenter@^7.19.27":
+  version "7.19.27"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.19.27.tgz#6ada041425f3772fe8befb14ecd85640544632dd"
+  integrity sha512-KKNUnDlhRx+tYZsDt3Bn8OqdpCS8V9pce+ZvCjkL+nGHN4G2w1lqAtm82VdzGYgG8HgrwqZ72/Z2bsxKvPho7g==
   dependencies:
     "@microsoft/api-extractor-model" "7.25.3"
     "@microsoft/tsdoc" "0.14.2"
@@ -826,7 +826,7 @@
     "@rushstack/ts-command-line" "4.13.1"
     colors "~1.2.1"
     js-yaml "~3.13.1"
-    resolve "~1.17.0"
+    resolve "~1.22.1"
 
 "@microsoft/api-extractor-model@7.25.3":
   version "7.25.3"
@@ -5253,13 +5253,6 @@ magic-string@^0.25.7:
   dependencies:
     sourcemap-codec "^1.4.8"
 
-magic-string@^0.26.4:
-  version "0.26.7"
-  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.26.7.tgz#caf7daf61b34e9982f8228c4527474dac8981d6f"
-  integrity sha512-hX9XH3ziStPoPhJxLq1syWuZMxbDvGNbVchfrdCtanC7D13888bMFow61x8axrx+GfHLtVeAx2kxL7tTGRl+Ow==
-  dependencies:
-    sourcemap-codec "^1.4.8"
-
 magic-string@^0.27.0:
   version "0.27.0"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.27.0.tgz#e4a3413b4bab6d98d2becffd48b4a257effdbbf3"
@@ -6706,7 +6699,7 @@ resolve-url@^0.2.1:
   resolved "https://registry.yarnpkg.com/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
-resolve@^1.10.0, resolve@^1.17.0, resolve@^1.18.1, resolve@^1.22.1:
+resolve@^1.10.0, resolve@^1.17.0, resolve@^1.18.1, resolve@^1.22.1, resolve@~1.22.1:
   version "1.22.1"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.22.1.tgz#27cb2ebb53f91abb49470a928bba7558066ac177"
   integrity sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==
