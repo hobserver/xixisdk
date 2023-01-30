@@ -815,12 +815,12 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@microsoft/api-documenter@^7.19.27":
-  version "7.19.27"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.19.27.tgz#6ada041425f3772fe8befb14ecd85640544632dd"
-  integrity sha512-KKNUnDlhRx+tYZsDt3Bn8OqdpCS8V9pce+ZvCjkL+nGHN4G2w1lqAtm82VdzGYgG8HgrwqZ72/Z2bsxKvPho7g==
+"@microsoft/api-documenter@^7.21.1":
+  version "7.21.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.21.1.tgz#dc560057f39a758a18156401a673aefc450331a7"
+  integrity sha512-Jme4ehP1Vl7h5sZ+K49432FO5BgmCsBMIn6zqKk9xQus8S5Mj31xSy5uMieqBsTOq/I/+P5FQ/UYf6Ie9NgeJw==
   dependencies:
-    "@microsoft/api-extractor-model" "7.25.3"
+    "@microsoft/api-extractor-model" "7.26.0"
     "@microsoft/tsdoc" "0.14.2"
     "@rushstack/node-core-library" "3.53.3"
     "@rushstack/ts-command-line" "4.13.1"
@@ -832,6 +832,15 @@
   version "7.25.3"
   resolved "https://registry.yarnpkg.com/@microsoft/api-extractor-model/-/api-extractor-model-7.25.3.tgz#1ad0fe161623564e5b36b73d5889066e36097389"
   integrity sha512-WWxBUq77p2iZ+5VF7Nmrm3y/UtqCh5bYV8ii3khwq3w99+fXWpvfsAhgSLsC7k8XDQc6De4ssMxH6He/qe1pzg==
+  dependencies:
+    "@microsoft/tsdoc" "0.14.2"
+    "@microsoft/tsdoc-config" "~0.16.1"
+    "@rushstack/node-core-library" "3.53.3"
+
+"@microsoft/api-extractor-model@7.26.0":
+  version "7.26.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor-model/-/api-extractor-model-7.26.0.tgz#aef2963ae02e0ed18d55475faae9d75e4bdce35a"
+  integrity sha512-iUlscM9a3/scqgaL+sipTYsfbkF/frrZhdYWXm5+zEVMW6QlP5jDV6cYNeIEIdMeGSbzk1yxpBjyeBDAZQLdyA==
   dependencies:
     "@microsoft/tsdoc" "0.14.2"
     "@microsoft/tsdoc-config" "~0.16.1"
