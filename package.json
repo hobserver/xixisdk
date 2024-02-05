@@ -55,7 +55,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^18.6.0",
-    "@commitlint/config-conventional": "^18.4.4",
+    "@commitlint/config-conventional": "^18.6.0",
     "@microsoft/api-documenter": "^7.23.17",
     "@microsoft/api-extractor": "^7.39.4",
     "@rollup/plugin-commonjs": "^25.0.7",
