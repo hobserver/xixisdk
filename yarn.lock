@@ -854,27 +854,18 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@microsoft/api-documenter@^7.24.5":
-  version "7.24.5"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.24.5.tgz#b08e762e53122212bfcad05f93da5847dc854e80"
-  integrity sha512-ta+4H/B2bYvZARZYMqnJuFN0FlQ77uMUY3xqVJtaQHO5VYnKA5XtV4H/ltCMr5b/MZcg+z0NTjMtOnvR/Q7W0g==
+"@microsoft/api-documenter@^7.24.8":
+  version "7.24.8"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.24.8.tgz#9fe453372d21f9db30d7f89aa4cae054e2bd1909"
+  integrity sha512-5gTlnaeRWp4qY1LyWfzPi9NTsFdxW/+/nWpSMlHGPuYoPuQ5x8pm7LdTbBcLnisY7Gj/+o0+VwC+47mKtQdPZQ==
   dependencies:
-    "@microsoft/api-extractor-model" "7.28.16"
+    "@microsoft/api-extractor-model" "7.28.17"
     "@microsoft/tsdoc" "0.14.2"
-    "@rushstack/node-core-library" "4.2.1"
-    "@rushstack/terminal" "0.10.3"
-    "@rushstack/ts-command-line" "4.19.5"
+    "@rushstack/node-core-library" "4.3.0"
+    "@rushstack/terminal" "0.11.0"
+    "@rushstack/ts-command-line" "4.21.0"
     js-yaml "~3.13.1"
     resolve "~1.22.1"
-
-"@microsoft/api-extractor-model@7.28.16":
-  version "7.28.16"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor-model/-/api-extractor-model-7.28.16.tgz#f010ae5f65f2d7cf65ef023cf1ffda1edf9a8b52"
-  integrity sha512-4/5gbW9zazr7hHHdv32QoCFDQl4vsrMOFp7g9k/uIQR2mn7AqQVN6NvNOAnFi1xwCM6X3K1BN1ZWf9ARF5hUmA==
-  dependencies:
-    "@microsoft/tsdoc" "0.14.2"
-    "@microsoft/tsdoc-config" "~0.16.1"
-    "@rushstack/node-core-library" "4.2.1"
 
 "@microsoft/api-extractor-model@7.28.17":
   version "7.28.17"
@@ -1337,18 +1328,6 @@
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
 
-"@rushstack/node-core-library@4.2.1":
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/@rushstack/node-core-library/-/node-core-library-4.2.1.tgz#8f2b90404e0308bf54ff30fba29b6545658e4e5c"
-  integrity sha512-jO8tR7ySxwy2c34QXSQDT9C22EfyisQruKT39FpipPOJAwKejug86eM+FL0QmkqbWGwpmfzkp3pyV71I5ZD9FA==
-  dependencies:
-    fs-extra "~7.0.1"
-    import-lazy "~4.0.0"
-    jju "~1.4.0"
-    resolve "~1.22.1"
-    semver "~7.5.4"
-    z-schema "~5.0.2"
-
 "@rushstack/node-core-library@4.3.0":
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/@rushstack/node-core-library/-/node-core-library-4.3.0.tgz#7dc700c13e49f4fe7ffa93edfcfd3b0d66b910aa"
@@ -1369,14 +1348,6 @@
     resolve "~1.22.1"
     strip-json-comments "~3.1.1"
 
-"@rushstack/terminal@0.10.3":
-  version "0.10.3"
-  resolved "https://registry.yarnpkg.com/@rushstack/terminal/-/terminal-0.10.3.tgz#f4efea72f245d5ccc224465b1c118d7a9eae248e"
-  integrity sha512-4wEPvn9bTD4cixW+FQxlCtZmVIp73gUEAFutPXDo7Nik5bqmbP+fkZcd3Zjr+hOQyyu85d6+1R1DOPcchJX5ww==
-  dependencies:
-    "@rushstack/node-core-library" "4.2.1"
-    supports-color "~8.1.1"
-
 "@rushstack/terminal@0.11.0":
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/@rushstack/terminal/-/terminal-0.11.0.tgz#4e65f867d68e02acc5b9534bcab27b2b71be66ee"
@@ -1384,16 +1355,6 @@
   dependencies:
     "@rushstack/node-core-library" "4.3.0"
     supports-color "~8.1.1"
-
-"@rushstack/ts-command-line@4.19.5":
-  version "4.19.5"
-  resolved "https://registry.yarnpkg.com/@rushstack/ts-command-line/-/ts-command-line-4.19.5.tgz#ed93158b6cdf23690a5e94c5f90c8ed18b5c570f"
-  integrity sha512-0baDWdyMeB2LFHn1T8PKmy2rGclJoDruOjxwARrM4Oe66YjO9GfVZYwpM8ePdzJprWhkCnYLSxGUKJiWmUpapg==
-  dependencies:
-    "@rushstack/terminal" "0.10.3"
-    "@types/argparse" "1.0.38"
-    argparse "~1.0.9"
-    string-argv "~0.3.1"
 
 "@rushstack/ts-command-line@4.21.0":
   version "4.21.0"
@@ -3595,13 +3556,6 @@ figures@^2.0.0:
     escape-string-regexp "^1.0.5"
 
 figures@^6.0.0, figures@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/figures/-/figures-6.1.0.tgz#935479f51865fa7479f6fa94fc6fc7ac14e62c4a"
-  integrity sha512-d+l3qxjSesT4V7v2fh+QnmFnUWv9lSpjarhShNTgBOfA0ttejbQUAlHLitbjkoRiDulW0OPoQPYIGhIC8ohejg==
-  dependencies:
-    is-unicode-supported "^2.0.0"
-
-figures@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/figures/-/figures-6.1.0.tgz#935479f51865fa7479f6fa94fc6fc7ac14e62c4a"
   integrity sha512-d+l3qxjSesT4V7v2fh+QnmFnUWv9lSpjarhShNTgBOfA0ttejbQUAlHLitbjkoRiDulW0OPoQPYIGhIC8ohejg==
