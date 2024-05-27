@@ -854,27 +854,18 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@microsoft/api-documenter@^7.24.8":
-  version "7.24.8"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.24.8.tgz#9fe453372d21f9db30d7f89aa4cae054e2bd1909"
-  integrity sha512-5gTlnaeRWp4qY1LyWfzPi9NTsFdxW/+/nWpSMlHGPuYoPuQ5x8pm7LdTbBcLnisY7Gj/+o0+VwC+47mKtQdPZQ==
+"@microsoft/api-documenter@^7.24.11":
+  version "7.24.11"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.24.11.tgz#f02a2f6f64ea20688b8fded7c9f9a8f3e8c842d1"
+  integrity sha512-5YemRuYyna3LM4YOI2z1XmA/lJRMVFKUzh/GUYMyfcw/dmzMO0AXUlweatt4dFZ3EKVJ2hYyXKxYWr7v0rYUXw==
   dependencies:
-    "@microsoft/api-extractor-model" "7.28.17"
+    "@microsoft/api-extractor-model" "7.28.19"
     "@microsoft/tsdoc" "0.14.2"
-    "@rushstack/node-core-library" "4.3.0"
-    "@rushstack/terminal" "0.11.0"
-    "@rushstack/ts-command-line" "4.21.0"
+    "@rushstack/node-core-library" "5.1.0"
+    "@rushstack/terminal" "0.12.0"
+    "@rushstack/ts-command-line" "4.21.2"
     js-yaml "~3.13.1"
     resolve "~1.22.1"
-
-"@microsoft/api-extractor-model@7.28.17":
-  version "7.28.17"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor-model/-/api-extractor-model-7.28.17.tgz#6377782eefe4ca76348908d8890cc5809f936a2c"
-  integrity sha512-b2AfLP33oEVtWLeNavSBRdyDa8sKlXjN4pdhBnC4HLontOtjILhL1ERAmZObF4PWSyChnnC2vjb47C9WKCFRGg==
-  dependencies:
-    "@microsoft/tsdoc" "0.14.2"
-    "@microsoft/tsdoc-config" "~0.16.1"
-    "@rushstack/node-core-library" "4.3.0"
 
 "@microsoft/api-extractor-model@7.28.19":
   version "7.28.19"
@@ -1337,18 +1328,6 @@
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
 
-"@rushstack/node-core-library@4.3.0":
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/@rushstack/node-core-library/-/node-core-library-4.3.0.tgz#7dc700c13e49f4fe7ffa93edfcfd3b0d66b910aa"
-  integrity sha512-JuNZ7lwaYQ4R1TugpryyWBn4lIxK+L7fF+muibFp0by5WklG22nsvH868fuBoZMLo5FqAs6WFOifNos4PJjWSA==
-  dependencies:
-    fs-extra "~7.0.1"
-    import-lazy "~4.0.0"
-    jju "~1.4.0"
-    resolve "~1.22.1"
-    semver "~7.5.4"
-    z-schema "~5.0.2"
-
 "@rushstack/node-core-library@5.1.0":
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/@rushstack/node-core-library/-/node-core-library-5.1.0.tgz#b5baf4e5ce5b7c1efe674de2366f1f630f9a823a"
@@ -1371,14 +1350,6 @@
     resolve "~1.22.1"
     strip-json-comments "~3.1.1"
 
-"@rushstack/terminal@0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@rushstack/terminal/-/terminal-0.11.0.tgz#4e65f867d68e02acc5b9534bcab27b2b71be66ee"
-  integrity sha512-LKz7pv0G9Py5uULahNSixK1pTqIIKd103pAGhDW51YfzPojvmO5wfITe0PEUNAJZjuufN/KgeRW83dJo1gL2rQ==
-  dependencies:
-    "@rushstack/node-core-library" "4.3.0"
-    supports-color "~8.1.1"
-
 "@rushstack/terminal@0.12.0":
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/@rushstack/terminal/-/terminal-0.12.0.tgz#3fb63f845be4462b44bf262ee061a8ae6f3fc69b"
@@ -1386,16 +1357,6 @@
   dependencies:
     "@rushstack/node-core-library" "5.1.0"
     supports-color "~8.1.1"
-
-"@rushstack/ts-command-line@4.21.0":
-  version "4.21.0"
-  resolved "https://registry.yarnpkg.com/@rushstack/ts-command-line/-/ts-command-line-4.21.0.tgz#75b08e2b8f468d465ed3405052d98137991ae9f4"
-  integrity sha512-z38FLUCn8M9FQf19gJ9eltdwkvc47PxvJmVZS6aKwbBAa3Pis3r3A+ZcBCVPNb9h/Tbga+i0tHdzoSGUoji9GQ==
-  dependencies:
-    "@rushstack/terminal" "0.11.0"
-    "@types/argparse" "1.0.38"
-    argparse "~1.0.9"
-    string-argv "~0.3.1"
 
 "@rushstack/ts-command-line@4.21.2":
   version "4.21.2"
@@ -2737,7 +2698,7 @@ combined-stream@^1.0.8:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^2.20.0, commander@^2.7.1:
+commander@^2.20.0:
   version "2.20.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
@@ -5584,16 +5545,6 @@ lodash.escaperegexp@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.escaperegexp/-/lodash.escaperegexp-4.1.2.tgz#64762c48618082518ac3df4ccf5d5886dae20347"
   integrity sha1-ZHYsSGGAglGKw99Mz11YhtriA0c=
-
-lodash.get@^4.4.2:
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
-  integrity sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=
-
-lodash.isequal@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
-  integrity sha1-QVxEePK8wwEgwizhDtMib30+GOA=
 
 lodash.isplainobject@^4.0.6:
   version "4.0.6"
@@ -8567,11 +8518,6 @@ validate-npm-package-name@^5.0.0:
   dependencies:
     builtins "^5.0.0"
 
-validator@^13.7.0:
-  version "13.7.0"
-  resolved "https://registry.yarnpkg.com/validator/-/validator-13.7.0.tgz#4f9658ba13ba8f3d82ee881d3516489ea85c0857"
-  integrity sha512-nYXQLCBkpJ8X6ltALua9dRrZDHVYxjJ1wgskNt1lH9fzGjs3tgojGSCBjmEPwkWS1y29+DrizMTW19Pr9uB2nw==
-
 w3c-hr-time@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/w3c-hr-time/-/w3c-hr-time-1.0.2.tgz#0a89cdf5cc15822df9c360543676963e0cc308cd"
@@ -8870,14 +8816,3 @@ yoctocolors@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/yoctocolors/-/yoctocolors-2.0.2.tgz#8e871e30d7eabb1976776e07a9fe2fe9a8c46fba"
   integrity sha512-Ct97huExsu7cWeEjmrXlofevF8CvzUglJ4iGUet5B8xn1oumtAZBpHU4GzYuoE6PVqcZ5hghtBrSlhwHuR1Jmw==
-
-z-schema@~5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/z-schema/-/z-schema-5.0.2.tgz#f410394b2c9fcb9edaf6a7511491c0bb4e89a504"
-  integrity sha512-40TH47ukMHq5HrzkeVE40Ad7eIDKaRV2b+Qpi2prLc9X9eFJFzV7tMe5aH12e6avaSS/u5l653EQOv+J9PirPw==
-  dependencies:
-    lodash.get "^4.4.2"
-    lodash.isequal "^4.5.0"
-    validator "^13.7.0"
-  optionalDependencies:
-    commander "^2.7.1"
