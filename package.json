@@ -56,7 +56,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.6.1",
     "@commitlint/config-conventional": "^19.6.0",
-    "@microsoft/api-documenter": "^7.26.3",
+    "@microsoft/api-documenter": "^7.26.5",
     "@microsoft/api-extractor": "^7.48.1",
     "@rollup/plugin-commonjs": "^28.0.2",
     "@rollup/plugin-node-resolve": "^16.0.0",
