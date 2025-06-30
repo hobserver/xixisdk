@@ -836,10 +836,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@microsoft/api-documenter@^7.26.28":
-  version "7.26.28"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.26.28.tgz#6315829c3702d63cb27212c912c6201a116c5eec"
-  integrity sha512-lWb3OQPN/pBzCtOPgkFDmPxONtLKUoa3y+B7v3YqSOVw4VTMRVSXaEjJb0W4C9HWcHUWCRSl3X1fFpBRAEkp0g==
+"@microsoft/api-documenter@^7.26.29":
+  version "7.26.29"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.26.29.tgz#37062f9f3c899d9cac187b94d86c9b4746c0e21c"
+  integrity sha512-5gqnUCut1BeNmOZIE8hUJbzq3DxFcAyXL12oF6aFVtTDF8WiVs/J1HtlLYbxeIff6qbI1LfLnr16t+WOm9UVJw==
   dependencies:
     "@microsoft/api-extractor-model" "7.30.6"
     "@microsoft/tsdoc" "~0.15.1"
