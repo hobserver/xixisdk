@@ -850,16 +850,16 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@microsoft/api-documenter@^7.26.32":
-  version "7.26.32"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.26.32.tgz#0468cf2e151150b9a2a6c7b14cf19738cf8fbf8a"
-  integrity sha512-OnfyOuiOQMvIkzh7TK8RyPHDwtkZs7Dzu48XwzUyNHc3tyrLnlZcMNvh6XxUvPsTi/jOoe9alJezESnuGKIQYw==
+"@microsoft/api-documenter@^7.26.34":
+  version "7.26.34"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.26.34.tgz#e981fc6441022d2030597fb671051836450acdfa"
+  integrity sha512-fpJbZnccXBKxXUc22hVdZA5tSPZCUg7zhKSkVDBXJknxrLpIthXl35Syg8+Uv3arIHsVkYYj4QvbMlRPwwAIuQ==
   dependencies:
     "@microsoft/api-extractor-model" "7.30.7"
     "@microsoft/tsdoc" "~0.15.1"
     "@rushstack/node-core-library" "5.14.0"
-    "@rushstack/terminal" "0.15.4"
-    "@rushstack/ts-command-line" "5.0.2"
+    "@rushstack/terminal" "0.16.0"
+    "@rushstack/ts-command-line" "5.0.3"
     js-yaml "~3.13.1"
     resolve "~1.22.1"
 
@@ -1297,12 +1297,30 @@
     "@rushstack/node-core-library" "5.14.0"
     supports-color "~8.1.1"
 
+"@rushstack/terminal@0.16.0":
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/@rushstack/terminal/-/terminal-0.16.0.tgz#4d2e7ce147a39c1e3d836e3b7fc422c15e625a30"
+  integrity sha512-WEvNuKkoR1PXorr9SxO0dqFdSp1BA+xzDrIm/Bwlc5YHg2FFg6oS+uCTYjerOhFuqCW+A3vKBm6EmKWSHfgx/A==
+  dependencies:
+    "@rushstack/node-core-library" "5.14.0"
+    supports-color "~8.1.1"
+
 "@rushstack/ts-command-line@5.0.2":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@rushstack/ts-command-line/-/ts-command-line-5.0.2.tgz#92e3284c5dd9e05e76593c278672883722d46ed4"
   integrity sha512-+AkJDbu1GFMPIU8Sb7TLVXDv/Q7Mkvx+wAjEl8XiXVVq+p1FmWW6M3LYpJMmoHNckSofeMecgWg5lfMwNAAsEQ==
   dependencies:
     "@rushstack/terminal" "0.15.4"
+    "@types/argparse" "1.0.38"
+    argparse "~1.0.9"
+    string-argv "~0.3.1"
+
+"@rushstack/ts-command-line@5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@rushstack/ts-command-line/-/ts-command-line-5.0.3.tgz#c53dfaea84b8cbcb473209a49417ead4ae311cd6"
+  integrity sha512-bgPhQEqLVv/2hwKLYv/XvsTWNZ9B/+X1zJ7WgQE9rO5oiLzrOZvkIW4pk13yOQBhHyjcND5qMOa6p83t+Z66iQ==
+  dependencies:
+    "@rushstack/terminal" "0.16.0"
     "@types/argparse" "1.0.38"
     argparse "~1.0.9"
     string-argv "~0.3.1"
