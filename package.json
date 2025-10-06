@@ -57,7 +57,7 @@
     "@commitlint/cli": "^20.0.0",
     "@commitlint/config-conventional": "^20.0.0",
     "@microsoft/api-documenter": "^7.26.34",
-    "@microsoft/api-extractor": "^7.52.11",
+    "@microsoft/api-extractor": "^7.53.0",
     "@rollup/plugin-commonjs": "^28.0.6",
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@rollup/plugin-replace": "^6.0.2",
