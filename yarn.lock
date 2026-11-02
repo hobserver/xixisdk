@@ -908,10 +908,10 @@
     "@microsoft/tsdoc-config" "~0.18.2"
     "@rushstack/node-core-library" "5.25.1"
 
-"@microsoft/api-extractor@^7.59.4":
-  version "7.59.4"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-7.59.4.tgz#29c404a852509f4bd2d77eaac9e0c23fc208d6e7"
-  integrity sha512-XqseDKIw736qlhQwS9SOpbY4veOiP2Nc7YiWmgXXBmeA3kY9qGXw+Tu7DFpU9FvXywE1z8SvLJKUVxFpcX0kig==
+"@microsoft/api-extractor@^7.60.0":
+  version "7.60.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-7.60.0.tgz#22be7a664c22b8e1b057382a9e1d6c0ca2da187e"
+  integrity sha512-z744eKZNJ75h4WlsJiEa8oqbRUfczNe5MexweXe9kcm/phhZBZqfkDZCzHR5dDf8FdZvNapYK/wRPnSUAKuoug==
   dependencies:
     "@microsoft/api-extractor-model" "7.33.15"
     "@microsoft/tsdoc" "~0.17.0"
@@ -925,7 +925,7 @@
     resolve "~1.22.1"
     semver "~7.7.4"
     source-map "~0.6.1"
-    typescript "5.9.3"
+    typescript "6.0.3"
 
 "@microsoft/tsdoc-config@~0.18.2":
   version "0.18.2"
@@ -7775,10 +7775,10 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@5.9.3:
-  version "5.9.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.9.3.tgz#5b4f59e15310ab17a216f5d6cf53ee476ede670f"
-  integrity sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==
+typescript@6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-6.0.3.tgz#90251dc007916e972786cb94d74d15b185577d21"
+  integrity sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==
 
 typescript@^4.9.5:
   version "4.9.5"
